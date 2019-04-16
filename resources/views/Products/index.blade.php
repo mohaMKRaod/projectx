@@ -10,7 +10,7 @@
 
     <table class="table table-bordered">
         <tr>
-            <th with="80px">No</th>
+            <th with="80px">Nof</th>
             <th>Title</th>
             <th>Price</th>
             <th>Quantity</th>
