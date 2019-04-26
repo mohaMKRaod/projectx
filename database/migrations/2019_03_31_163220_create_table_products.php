@@ -18,6 +18,7 @@ class CreateTableProducts extends Migration
             $table->string('Title');
             $table->double('Price');
             $table->double('Quantity');
+            $table->string('Pavatar')->default('notfound.jpg');
             $table->timestamps();
         });
     }

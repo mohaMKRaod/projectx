@@ -11,9 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'pagecontroler@index'  );
+Route::get('/about', 'pagecontroler@about'  );
+Route::get('/profile', 'pagecontroler@profile'  );
+Route::get('/showcloss', 'pagecontroler@showcloss'  );
 
 Auth::routes();
 
