@@ -1,5 +1,10 @@
 @extends('layouts.manger')
 @section('content')
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container">
 <div class="row">
     <div class="col-lg-12 margin-tb">
         <div class="pull-left">
@@ -15,7 +20,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
            
-        <img class="card-img-top" src="uploads/avatar/{{ $product->pavatar}}" alt="product image">
+        <img class="card-img-top" src="/uploads/avatar/{{ $product->Pavatar }}" alt="product image">
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
@@ -37,5 +42,6 @@
         </div>
         
     </div>
+</div>
 </div>
 @endsection

@@ -1,5 +1,10 @@
 @extends('layouts.manger')
 @section('content')
+<br/>
+<br/>
+<br/>
+<br/>
+<div class="container">
     <div class="row">
     <div class="col-sm-12">
         <div class="full-right">
@@ -38,5 +43,5 @@
       </tr>
     @endforeach
     </table>
-
+</div>
 @endsection
