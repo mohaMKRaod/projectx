@@ -20,6 +20,9 @@ class pagecontroler extends Controller
     public function showcloss( ){
         return view('pages.showcloss');
     }
+    public function contact( ){
+        return view('pages.contact');
+    }
 
     
 }

@@ -20,7 +20,7 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
            
-        <img class="card-img-top" src="/uploads/avatar/{{ $product->Pavatar }}" alt="product image">
+        <img class="card-img-top" src="/uploads/avatar/{{ $product->Pavatar }}" style="width:150px; height:150px;  margin-right:25px;" alt="product image">
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12">
@@ -34,14 +34,14 @@
             <strong>Price : </strong>
             {{ $product->Price}}
         </div>
-
+    </div>
         <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong>Quantity : </strong>
             {{ $product->Quantity}}
         </div>
         
-    </div>
+    
 </div>
 </div>
 @endsection
