@@ -27,7 +27,7 @@
                             
                             <!-- Logo desktop -->		
                             <a href="/" class="logo">
-                                <img src="/images/icons/logo-01.png" alt="IMG-LOGO">
+                                <h2>X-Cloth</h2>
                             </a>
         
                             <!-- Menu desktop -->
@@ -38,7 +38,7 @@
                                     </li>
         
                                     <li>
-                                        <a href="product.html">Shop</a>
+                                        <a href="/showcloss">Shop</a>
                                     </li>
         
                                     <li class="label1" data-label1="hot">

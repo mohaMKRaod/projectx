@@ -16,6 +16,7 @@ Route::get('/about', 'pagecontroler@about'  );
 Route::get('/profile', 'pagecontroler@profile'  );
 Route::get('/showcloss', 'pagecontroler@showcloss'  );
 Route::get('/contact', 'pagecontroler@contact'  );
+Route::get('/product_detail', 'pagecontroler@product_detail'  );
 
 Auth::routes();
 

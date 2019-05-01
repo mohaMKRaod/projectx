@@ -18,10 +18,15 @@ class pagecontroler extends Controller
         return view('pages.profile');
     }
     public function showcloss( ){
-        return view('pages.showcloss');
+        $product = Products::all();
+        return view('pages.showcloss',compact('product'));
     }
     public function contact( ){
         return view('pages.contact');
+    }
+    public function product_detail( ){
+        $product = Products::all();
+        return view('pages.product_detail',compact('product'));
     }
 
     

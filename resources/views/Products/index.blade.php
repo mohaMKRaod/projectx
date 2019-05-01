@@ -1,4 +1,5 @@
 @extends('layouts.manger')
+
 @section('content')
 <br/>
 <br/>

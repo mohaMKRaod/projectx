@@ -9,7 +9,7 @@
                             
                             <!-- Logo desktop -->		
                             <a href="/" class="logo">
-                                <img src="/images/icons/logo-01.png" alt="IMG-LOGO">
+                                <h2>X-Cloth</h2>
                             </a>
         
                             <!-- Menu desktop -->
